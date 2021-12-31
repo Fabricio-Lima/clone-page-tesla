@@ -22,7 +22,7 @@ const DefaultOverlayContent: React.FC<Props> = ({ label, description }) => {
                 <button>
                     Custom Order
                 </button>
-                <button>
+                <button className='white'>
                     Existing Inventary
                 </button>
             </Buttons>
