@@ -6,7 +6,7 @@ interface Props {
     description: string;
 }
 
-const DefaultOverlayContent: React.FC<Props> = (label, description) => {
+const DefaultOverlayContent: React.FC<Props> = ({ label, description }) => {
     return (
         <Container>
             <Heading>

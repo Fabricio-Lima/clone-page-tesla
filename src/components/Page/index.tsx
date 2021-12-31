@@ -16,7 +16,7 @@ const Page: React.FC = () => {
                         'model For',
                         'model Five',
                         'model Six',
-                        'model Seven',
+                        'model Seven'
 
                     ].map(modelName =>  (
                         <ModelSection 
