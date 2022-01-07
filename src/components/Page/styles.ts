@@ -1,25 +1,34 @@
 import styled from 'styled-components';
+import teslaS from '../../assets/teslaS.png';
+import teslaY from '../../assets/teslaY.png';
+import tesla3 from '../../assets/tesla3.png';
+import teslaX from '../../assets/teslaX.png';
+
+
 
 export const Container = styled.div`
     .colored:nth-child(1) {
-        background: #f1ffe7;
+        background-image: url(${teslaS});
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .colored:nth-child(2) {
-        background: #dfffd9;
+        background-image: url(${teslaY});
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .colored:nth-child(3) {
-        background: #cdfeca;
+        background-image: url(${tesla3});
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
     .colored:nth-child(4) {
-        background: #bbfebb;
-    }
-    .colored:nth-child(5) {
-        background: #a9fdac;
-    }
-    .colored:nth-child(6) {
-        background: #90f29c;
-    }
-    .colored:nth-child(7) {
-        background: #77e68c;
+        background-image: url(${teslaX});
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 `;
